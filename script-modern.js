@@ -129,31 +129,31 @@
       window.location.href = "pages/modern-yokka.html";
     }
     if (p.name === "二川駅") {
-      window.location.href = "pages/modern-ise.html";
+      window.location.href = "pages/modern-nika.html";
     }
     if (p.name === "岡崎駅") {
-      window.location.href = "pages/modern-ise.html";
+      window.location.href = "pages/modern-oka.html";
     }
     if (p.name === "有松駅") {
-      window.location.href = "pages/modern-ise.html";
+      window.location.href = "pages/modern-ari.html";
     }
     if (p.name === "新居駅") {
-      window.location.href = "pages/modern-ise.html";
+      window.location.href = "pages/modern-ari.html";
     }
     if (p.name === "浜松駅") {
-      window.location.href = "pages/modern-ise.html";
+      window.location.href = "pages/modern-hama.html";
     }
     if (p.name === "新蒲原駅") {
-      window.location.href = "pages/modern-ise.html";
+      window.location.href = "pages/modern-kaba.html";
     }
     if (p.name === "小田原駅") {
-      window.location.href = "pages/modern-ise.html";
+      window.location.href = "pages/modern-oda.html";
     }
     if (p.name === "川崎駅") {
-      window.location.href = "pages/modern-ise.html";
+      window.location.href = "pages/modern-kawa.html";
     }
     if (p.name === "日本橋") {
-      window.location.href = "pages/modern-ise.html";
+      window.location.href = "pages/modern-jap.html";
     }
   });
 
