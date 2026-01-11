@@ -140,7 +140,7 @@
     if (p.name === "新居駅") {
       window.location.href = "pages/modern-ari.html";
     }
-    if (p.name === "浜松駅") {
+    if (p.name === "静岡駅") {
       window.location.href = "pages/modern-hama.html";
     }
     if (p.name === "新蒲原駅") {
@@ -168,3 +168,4 @@
   };
 
 })();
+
