@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>現代マップ（JR経路）</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    #map {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- マップ切替トグル -->
+<div id="mapToggle">
+  <span class="label edo">江戸</span>
+  <label class="switch">
+    <input type="checkbox" id="mapSwitch">
+    <span class="slider"></span>
+  </label>
+  <span class="label modern">現代</span>
+</div>
+
+<!-- 地図 -->
+<div id="map"></div>
+
+<!-- JS -->
+<script src="map-toggle.js"></script>
+<script src="script-modern.js"></script>
+
+<!-- Google Maps -->
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIOoD20BO4QZhI-QvilktM7GEIvhKRHgs&callback=initMapModern"
+  async defer>
+</script>
+
+</body>
+</html>
