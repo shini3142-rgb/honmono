@@ -135,7 +135,7 @@
       window.location.href = "pages/modern-oka.html";
     }
     if (p.name === "有松駅") {
-      window.location.href = "pages/modern-ari.html";
+      window.location.href = "pages/modern-arimatu.html";
     }
     if (p.name === "新居駅") {
       window.location.href = "pages/modern-ari.html";
@@ -168,4 +168,5 @@
   };
 
 })();
+
 
